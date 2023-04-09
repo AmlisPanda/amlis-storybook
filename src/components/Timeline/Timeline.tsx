@@ -9,6 +9,7 @@ interface TimelineProps {
 const Timeline = ({ activities }: TimelineProps) => {
   return (
     <div>
+      <span></span>
       <div className={styles.verticalLine}></div>
       {activities?.map((activity) => {
         return (
