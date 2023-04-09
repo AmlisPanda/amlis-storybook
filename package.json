@@ -39,7 +39,7 @@
     "vite": "^4.2.0"
   },
   "description": "Personal Storybook design system",
-  "main": "index.js",
+  "main": "src/index.js",
   "repository": "https://github.com/AmlisPanda/amlis-storybook.git",
   "author": "cruan <selyne57@gmail.com>",
   "license": "MIT"
