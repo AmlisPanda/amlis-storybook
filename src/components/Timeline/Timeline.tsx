@@ -12,7 +12,7 @@ const Timeline = ({ activities }: TimelineProps) => {
       <div className={styles.verticalLine}></div>
       {activities?.map((activity) => {
         return (
-          <div>
+          <div className={styles.activity}>
             <h4>{activity.title}</h4>
             <span>{activity.subtitle}</span>
             <div>{activity.content}</div>
