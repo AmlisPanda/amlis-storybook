@@ -1,0 +1,8 @@
+
+@import 'src/styles/_colors.scss';
+
+.verticalLine {
+    height: 500px;
+    width: 3px;
+    background-color: $gray-dark;
+}
