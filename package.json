@@ -1,5 +1,5 @@
 {
-  "name": "@amlis/design-system",
+  "name": "@cruan/design-system",
   "private": false,
   "version": "0.2.0",
   "type": "module",
@@ -28,6 +28,7 @@
     "@types/react-dom": "^18.0.11",
     "@types/styled-components": "^5.1.26",
     "@vitejs/plugin-react": "^3.1.0",
+    "auto": "^10.44.0",
     "classnames": "^2.3.2",
     "prop-types": "^15.8.1",
     "sass-loader": "^13.0.0",
@@ -36,5 +37,10 @@
     "styled-components": "^5.3.9",
     "typescript": "^4.9.3",
     "vite": "^4.2.0"
-  }
+  },
+  "description": "Personal Storybook design system",
+  "main": "index.js",
+  "repository": "https://github.com/AmlisPanda/amlis-storybook.git",
+  "author": "cruan <selyne57@gmail.com>",
+  "license": "MIT"
 }
