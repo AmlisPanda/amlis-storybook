@@ -1,14 +1,15 @@
 {
-  "name": "amlis-storybook",
-  "private": true,
-  "version": "0.1.0",
+  "name": "@amlis/design-system",
+  "private": false,
+  "version": "0.2.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "release": "auto shipit --base-branch=main"
   },
   "dependencies": {
     "react": "^18.2.0",
