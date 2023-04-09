@@ -6,8 +6,8 @@ const config: StorybookConfig = {
     "@storybook/addon-essentials",
     "@storybook/addon-interactions",
   ],
-  "features": {
-    "storyStoreV7": true
+  features: {
+    storyStoreV7: true,
   },
   framework: {
     name: "@storybook/react-vite",
@@ -20,11 +20,11 @@ const config: StorybookConfig = {
     config.css = {
       preprocessorOptions: {
         scss: {
-          additionalData: `@import "src/styles/_core.scss";`
-        }
-      }
+          additionalData: `@import "src/styles/_core.scss";`,
+        },
+      },
     };
     return config;
-  }
+  },
 };
 export default config;

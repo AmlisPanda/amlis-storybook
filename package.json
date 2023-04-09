@@ -36,10 +36,19 @@
     "storybook": "^7.0.2",
     "styled-components": "^5.3.9",
     "typescript": "^4.9.3",
-    "vite": "^4.2.0"
+    "vite": "^4.2.0",
+    "vite-plugin-dts": "^2.2.0"
   },
   "description": "Personal Storybook design system",
-  "main": "src/index.js",
+  "main": "dist/amlis-storybook.umd.js",
+  "module": "./dist/amlis-storybook.es.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/amlis-storybook.es.js",
+      "require": "./dist/amlis-storybook.umd.js"
+    }
+  },
   "repository": "https://github.com/AmlisPanda/amlis-storybook.git",
   "author": "cruan <selyne57@gmail.com>",
   "license": "MIT"
